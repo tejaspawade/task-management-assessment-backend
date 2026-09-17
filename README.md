@@ -1,6 +1,6 @@
 # TaskBoard API
 
-A lightweight Kanban-style task board backend built with **ASP.NET Core 8 Web API**. Tasks are organized into columns (e.g. *To Do*, *In Progress*, *Done*), can be favorited, and are stored in-memory for the lifetime of the process.
+A lightweight Jira-style task board backend built with **ASP.NET Core 8 Web API**. Tasks are organized into columns (e.g. *To Do*, *In Progress*, *Done*), can be favorited, and are stored in-memory for the lifetime of the process.
 
 ## Project Structure
 
