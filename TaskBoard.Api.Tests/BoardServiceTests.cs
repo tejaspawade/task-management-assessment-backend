@@ -140,11 +140,11 @@ public class BoardServiceTests
     {
         var created = _service.AddTask(new CreateTaskRequest("Task", null, null, _columnId));
 
-        var firstToggle = _service.ToggleFavorite(created.Id);
-        var secondToggle = _service.ToggleFavorite(created.Id);
+        var firstToggleIsFavorite = _service.ToggleFavorite(created.Id)!.IsFavorite;
+        var secondToggleIsFavorite = _service.ToggleFavorite(created.Id)!.IsFavorite;
 
-        Assert.That(firstToggle!.IsFavorite, Is.True);
-        Assert.That(secondToggle!.IsFavorite, Is.False);
+        Assert.That(firstToggleIsFavorite, Is.True);
+        Assert.That(secondToggleIsFavorite, Is.False);
     }
 
     [Test]
