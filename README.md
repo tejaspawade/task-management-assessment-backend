@@ -2,6 +2,9 @@
 
 A lightweight Jira-style task board backend built with **ASP.NET Core 8 Web API**. Tasks are organized into columns (e.g. *To Do*, *In Progress*, *Done*), can be favorited, and are stored in-memory for the lifetime of the process.
 
+<img width="1830" height="916" alt="Task Board Assessment" src="https://github.com/user-attachments/assets/a05c6e49-701c-4149-bc9b-47111d43595c" />
+
+
 ## Project Structure
 
 ```
