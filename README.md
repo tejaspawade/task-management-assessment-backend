@@ -40,6 +40,8 @@ The API is configured with CORS to allow requests from a React frontend running 
 ```bash
 dotnet test
 ```
+<img width="746" height="58" alt="image" src="https://github.com/user-attachments/assets/a2c6e3b2-10c5-4a14-97bb-6b87065e2af5" />
+
 
 ## API Endpoints
 
